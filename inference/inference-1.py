@@ -1,11 +1,11 @@
 import cv2
 import torch
-from model import GazeSwinTransformer  # Assuming model.py is in the same directory
+from model import GazeSwinTransformer  # Load the mod script you defined, making sure the mod is consistent with the checkpoint.
 from torchvision import transforms
 import numpy as np
 
 # Load the trained model
-model_path = 'Iter_60_mp2.pt'  # Replace with your model trained path
+model_path = 'Iter_60_mp2.pt'  # Replace with your checkpoint path
 model = GazeSwinTransformer()
 model.load_state_dict(torch.load(model_path))
 model.eval()
@@ -27,7 +27,7 @@ transform = transforms.Compose([
 
 from facenet_pytorch import MTCNN
 
-# Initialize MTCNN face detector£¨You can replace any face detector£©
+# Initialize MTCNN face detectorÂ£Â¨You can replace any face detectorÂ£Â©
 mtcnn = MTCNN(keep_all=True, device=device)
 
 def process_frame(frame):
