@@ -83,36 +83,32 @@ The requirements are listed in the `requirement.txt` file. To create your own en
 pip install -r requirements.txt
 ```
 ### Train
-
-In the leaveout folder, you can run：
+Training on the MPIIFaceGaze dataset, you can run in the leaveout folder：
 ```
+cd MPIIFaceGaze/Leaveout
 python train.py config/config_mpii.yaml 0
 ```
-This means the code will run with `config_mpii.yaml` and use the `0th` person as the test set.
-
-You also can run：
+or
 ```
 bash run.sh train.py config/config_mpii.yaml
 ```
-This means the code will perform leave-one-person-out training automatically.   
-`run.sh` performs iteration, you can change the iteration times in `run.sh` for different datasets, e.g., set the iteration times as `4` for four-fold validation.
-
-In the traintest folder, you can run：
+Training on Gaze 360 dataset, you can run in the traintest folder:
 ```
+cd Gaze360/Traintest
 python train.py config/config_mpii.yaml
 ```
 
 ### Test
-In the leaveout folder, you can run：
+Testing on the MPIIFaceGaze dataset, you can run in the leaveout folder：：
 ```
+cd MPIIFaceGaze/Leaveout
 python test.py config/config_mpii.yaml 0
 ```
 or
 ```
 bash run.sh test.py config/config_mpii.yaml
 ```
-
-In the traintest folder, you can run：
+Testing on Gaze 360 dataset, you can run in the traintest folder:
 ```
 python test.py config/config_mpii.yaml
 ```
