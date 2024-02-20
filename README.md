@@ -120,6 +120,7 @@ python inference-1.py
 ```
 For inference using the local camera, please run:
 ```
+cd inference
 python inference-2.py
 ```
 
