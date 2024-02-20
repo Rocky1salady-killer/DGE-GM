@@ -4,7 +4,7 @@ Appearance-based Driver 3D Gaze Estimation Using GRM and Mixed Loss Strategies
 The project code is currently being organized and released incrementally.
 
 <p align="center">
-  <img src="https:https://inference/look straight ahead and deviation warning.gif" alt="animated" />
+  <img src="inference/look straight ahead and deviation warning.gif" alt="animated" />
 </p>
 
 ## Introduction
