@@ -10,7 +10,7 @@ Inference results on the dmd dataset:
 </p>
 Inference results using a local camera at the driving simulator:
 <p align="center">
-  <img src="inference/inference results on driving simulator.gif.gif" alt="animated" />
+  <img src="inference/inference results on driving simulator.gif" alt="animated" />
 </p>
 
 
