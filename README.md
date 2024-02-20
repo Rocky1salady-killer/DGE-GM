@@ -130,6 +130,8 @@ python inference-2.py
 ### Result
 After training or test, you can find the result from the `save_path` in `config_mpii.yaml`. 
 
+## Acknowledgments
+
 Our work is based on Swin transformer, Gaze360 and Fullface.  We appreciate the previous open-source repository [Swin Transformer](https://github.com/microsoft/Swin-Transformer), [Gaze360](https://github.com/yihuacheng/Gaze360) and [Fullface](https://github.com/yihuacheng/Full-face).
 
 Please follow their outstanding work:
