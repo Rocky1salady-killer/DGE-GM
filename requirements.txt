@@ -1,0 +1,10 @@
+PyYAML
+timm
+opencv-python
+facenet_pytorch
+pyopengl 
+moviepy
+lucid
+torch
+opencv-python
+matplotlib
