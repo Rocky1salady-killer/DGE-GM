@@ -84,11 +84,12 @@ pip install -r requirements.txt
 ### Train
 Training on the MPIIFaceGaze dataset, you can run in the leaveout folder：
 ```
-cd MPIIFaceGaze/Leaveout
+cd mp2/Leaveout
 python train.py config/config_mpii.yaml 0
 ```
 or
 ```
+cd mp2/Leaveout
 bash run.sh train.py config/config_mpii.yaml
 ```
 Training on Gaze 360 dataset, you can run in the traintest folder:
@@ -101,11 +102,11 @@ python train.py config/config_mpii.yaml
 Testing on the MPIIFaceGaze dataset, you can run in the leaveout folder：
 Since the training and testing on the MPIIFaceGaze dataset follows the LOPO strategy, I suggest to save the checkpoints for each epoch for 15 labels and test them to get better test results.
 ```
-cd MPIIFaceGaze/Leaveout
+cd mp2/Leaveout
 python test.py config/config_mpii.yaml 0
 ```
 or
-```
+```cd mp2/Leaveout
 bash run.sh test.py config/config_mpii.yaml
 ```
 Testing on Gaze 360 dataset, you can run in the traintest folder:
