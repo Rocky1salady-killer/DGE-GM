@@ -3,9 +3,16 @@ Appearance-based Driver 3D Gaze Estimation Using GRM and Mixed Loss Strategies
 
 The project code is currently being organized and released incrementally.
 
+
+Inference results on the dmd dataset:
 <p align="center">
-  <img src="inference/look straight ahead and deviation warning.gif" alt="animated" />
+  <img src="inference/inference on dmd dataset.gif" alt="animated" />
 </p>
+Inference results using a local camera at the driving simulator:
+<p align="center">
+  <img src="inference/look.gif" alt="animated" />
+</p>
+
 
 ## Introduction
 We provide two projects for leave-one-person-out evaluation and the evaluation of common training-test split.
