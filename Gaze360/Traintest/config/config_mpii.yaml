@@ -1,0 +1,28 @@
+---
+train:
+  params:
+    batch_size: 80
+    epoch: 100
+    lr: 0.0001
+    decay: 1
+    decay_step: 5000
+    loss: 
+  save:
+    save_path: "Gaze360/modelsave"
+    model_name: Gaze360
+    step: 10
+  data:
+    image: data/gaze360/Image/train"
+    label: data/gaze360/Label/train.label"
+  pretrains: "None"
+test:
+   load:
+      begin_step: 60
+      end_step: 60
+      steps: 10
+      load_path: "Gaze360/modelsave"
+      model_name: Gaze360
+   data:
+      image: "data/gaze360/Image"
+      label: "data/gaze360/Label/test.label"
+reader: reader_gaze360
