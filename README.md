@@ -99,7 +99,8 @@ python train.py config/config_mpii.yaml
 ```
 
 ### Test
-Testing on the MPIIFaceGaze dataset, you can run in the leaveout folder：：
+Testing on the MPIIFaceGaze dataset, you can run in the leaveout folder：
+Since the training and testing on the MPIIFaceGaze dataset follows the LOPO strategy, I suggest to save the checkpoints for each epoch for 15 labels and test them to get better test results.
 ```
 cd MPIIFaceGaze/Leaveout
 python test.py config/config_mpii.yaml 0
