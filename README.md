@@ -113,11 +113,12 @@ Testing on Gaze 360 dataset, you can run in the traintest folder:
 python test.py config/config_mpii.yaml
 ```
 ### Inference
-Inference using local camera and MTCNN face detection, please run:
+For inference videos or images, please run:
 ```
+cd inference
 python inference-1.py
 ```
-For inference videos or images, please run:
+For inference using the local camera, please run:
 ```
 python inference-2.py
 ```
