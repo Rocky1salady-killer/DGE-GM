@@ -113,6 +113,8 @@ Testing on Gaze 360 dataset, you can run in the traintest folder:
 python test.py config/config_mpii.yaml
 ```
 ### Inference
+#### One of the models in this work is publicly available [Iter_60_mp2](https://drive.google.com/file/d/12qHsUef_yJtCah9QGnfZl3II7rbvmy71/view?usp=sharing) and can be used directly for simple inference.
+
 For inference videos or images, please run:
 ```
 cd inference
