@@ -12,7 +12,7 @@ Inference results on the dmd dataset:
 
 
 ## Introduction
-We provide two projects for leave-one-person-out evaluation and the evaluation of common training-test split.
+Two projects were provided for leave-one-person-out evaluation and the evaluation of common training-test split.
 They have the same architecture but different `train.py` and `test.py`.
 
 Each project contains following files/folders.
@@ -25,13 +25,13 @@ Each project contains following files/folders.
 ## Getting Started
 
 
-Normally, for training, you should change 
+For train, you should change:
 1. `train.save.save_path`, The model is saved in the `$save_path$/checkpoint/`.
 2. `train.data.image`, This is the path of image, please use the provided data processing code.
 3. `train.data.label`, This is the path of label.
 4. `reader`, This indicates the used reader. It is the filename in `reader` folder, e.g., *reader/reader_mpii.py* ==> `reader: reader_mpii`.
 
-For test, you should change 
+For test, you should change:
 1. `test.load.load_path`, it is usually the same as `train.save.save_path`. The test result is saved in `$load_path$/evaluation/`.
 2. `test.data.image`, it is usually the same as `train.data.image`.
 3. `test.data.label`, it is usually the same as `train.data.label`.
