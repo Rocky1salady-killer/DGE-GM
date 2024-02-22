@@ -12,8 +12,8 @@ train:
     model_name: Gaze360
     step: 10
   data:
-    image: data/gaze360/Image/train"
-    label: data/gaze360/Label/train.label"
+    image: "data/gaze360/Image/train"
+    label: "data/gaze360/Label/train.label"
   pretrains: "None"
 test:
    load:
