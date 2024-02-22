@@ -4,10 +4,12 @@
 
 
 Inference results on the dmd dataset:
+
 <p align="center">
   <img src="inference/inference results on dmd dataset.gif" alt="animated" />
 </p>
 Inference results on the driving simulator:
+
 <p align="center">
   <img src="inference/inference results on driving-simulator.gif" alt="animated" />
 </p>
