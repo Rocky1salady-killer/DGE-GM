@@ -79,7 +79,7 @@ python data_processing_gaze360.py
 
 
 
-#### We are grateful to  [GazeHub@Phi-ai Lab](https://phi-ai.buaa.edu.cn/Gazehub/)  for their contributions to the data preprocessing.
+#### We are grateful to  [GazeHub@Phi-ai Lab](https://phi-ai.buaa.edu.cn/Gazehub/3D-dataset/#mpiifacegaze)  for their contributions to the data preprocessing.
 
 ### Installation
 
