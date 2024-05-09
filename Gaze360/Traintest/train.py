@@ -58,7 +58,7 @@ if __name__ == "__main__":
     cur = 0
     timebegin = time.time()
     with open(os.path.join(savepath, "train_log"), 'w') as outfile:
-        for epoch in range(81, config["params"]["epoch"] + 1):  
+        for epoch in range(0, config["params"]["epoch"] + 1):  
             for i, (data, label) in enumerate(dataset):
                 data["face"] = data["face"].to(device)
                 label = label.to(device)
